@@ -27,7 +27,7 @@
       margin-top: 10px;
     }
     input, select {
-      width: 70%;
+      width: 100%;
       padding: 10px;
       margin: 10px 0;
       border: 1px solid #ccc;
