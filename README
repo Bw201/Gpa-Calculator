@@ -1,0 +1,53 @@
+# GPA Calculator
+
+This is a simple GPA Calculator web application that allows users to input their course details, including course code, credit hours, and grades, to calculate their GPA. The application also enables users to manage their course list and view the calculated GPA.
+
+## Features
+
+- **Add Course**: Input course details (course code, credit hours, and grade) to add to the course list.
+- **Calculate GPA**: Automatically calculate the cumulative GPA based on the entered courses and their credit hours.
+- **Reset Form**: Clear the course list and reset the form to start fresh.
+- **Real-time Updates**: View the added courses in a dynamic list.
+
+## Technologies Used
+
+- **HTML**: For the structure of the web page.
+- **CSS**: For styling and layout.
+- **JavaScript**: For dynamic functionality and calculations.
+
+## How to Use
+
+1. **Add Courses**:
+   - Enter the course code (e.g., `BMKT2323`).
+   - Enter the credit hours (e.g., `3`).
+   - Select the grade from the dropdown menu (e.g., `A (4.0)`).
+   - Click the **"Add Course"** button to save the course.
+
+2. **Calculate GPA**:
+   - After adding all courses, click the **"Calculate GPA"** button.
+   - The calculated GPA will appear in the results section.
+
+3. **Reset**:
+   - Click the **"Reset"** button to clear all entered data and start over.
+
+## Live Demo
+
+You can view and interact with the live demo of this application on GitHub Pages or any hosting service. (Replace this line with the link to your live demo.)
+
+## Development Process
+
+### AI Assistance
+
+This project was developed with assistance from AI tools. Here’s how they were utilized:
+- **AI Prompting**: Generated JavaScript code snippets for functionality, including GPA calculations and UI updates.
+- **Modifications**: Adjusted AI-generated code to align with specific project requirements.
+- **Challenges**: Addressed issues such as form validation, dynamic DOM updates, and handling edge cases.
+
+### Key Learnings
+
+- **Programming Concepts**: Leveraged loops, arrays, and functions for data processing.
+- **Validation**: Implemented input validation for course details.
+- **UI/UX**: Designed a user-friendly interface with responsive design.
+
+## Folder Structure
+
