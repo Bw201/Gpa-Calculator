@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -28,7 +27,7 @@
       margin-top: 10px;
     }
     input, select {
-      width: 80%;
+      width: 100%;
       padding: 10px;
       margin: 10px 0;
       border: 1px solid #ccc;
