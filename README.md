@@ -78,11 +78,10 @@
     <form id="gpaForm">
       <label for="courseCode">Course Code:</label>
       <input type="text" id="courseCode" placeholder="Enter course code (e.g., BMKT2323)" required>
-
       <label for="credits">Credit Hours:</label>
       <input type="number" id="credits" placeholder="Enter credit hours" required>
 
-      <label for="grade">Grade:</label>
+  <label for="grade">Grade:</label>
       <select id="grade" required>
         <option value="" disabled selected>Select grade</option>
         <option value="4.0">A  (4.0)</option>
@@ -97,19 +96,19 @@
         <option value="0.0">F  (0.0)</option>
       </select>
 
-      <div class="button-group">
+  <div class="button-group">
         <button type="button" onclick="addCourse()">Add Course</button>
         <button type="button" onclick="calculateGPA()">Calculate GPA</button>
         <button type="button" onclick="resetForm()">Reset</button>
       </div>
     </form>
 
-    <div id="courseList" class="course-list">
+  <div id="courseList" class="course-list">
       <h2>Added Courses:</h2>
       <p>No courses added yet.</p>
     </div>
     
-    <div id="results" class="results"></div>
+  <div id="results" class="results"></div>
   </div>
 
   <script>
